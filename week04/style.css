@@ -1,0 +1,65 @@
+
+/*STYLE*/
+
+h3 {
+	color: #ffebbd;;
+	}
+
+body {
+	background-color: #ffebbd;
+	font-family: 'Alice';}
+			
+header {
+	text-align: center;
+	padding: 5px;
+	position:relative;
+	top: 1vw;
+	padding: 5px;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+	}
+
+#bookshelf1 {
+	position:relative;
+	left: 10px;
+	width: 250px;
+	height: 400px;
+	background-color: #784f1d;
+	padding: 10px;
+	text-align: left;
+	}
+
+#bookshelf2 {
+	position: relative;
+	left: 350px;
+	background-color: #784f1d;
+	padding: 10px;
+	width: 250px;
+	height: 400px;
+	margin-top: -29px;
+	text-align: center
+	}
+
+#bookshelf3 {
+	position: relative;
+	left: 350px;
+	background-color: #784f1d;
+	padding: 10px;
+	width: 250px;
+	height: 400px;
+	margin-top: -29px;
+	text-align: center
+	}
+
+#sofa {
+	position: static;
+	background-color: grey;
+	margin-left: 10px;
+	width: 1000px;
+	height: 300px;
+	border-style: round;
+	border-width: 5px;
+	border-color: white;
+	text-align: center;
+	}
