@@ -1,36 +1,33 @@
 
 /*STYLE*/
 
-h3 {
-	color: #ffebbd;;
-	}
-
 body {
-	background-color: #ffebbd;
+	background-color: #white;
 	font-family: 'Alice'}
 			
 header {
+	display: block;
+	z-index: 10;
+	margin: 0 auto;
 	text-align: center;
 	padding: 5px;
 	position:relative;
 	top: 1vw;
-	padding: 5px;
-	border-style: solid;
-	border-color: black;
-	border-width: 3px;
 	}
 
-#bookshelf {
-	position: relative;
-	background-color: #784f1d;
-	padding: 10px;
-	text-align: center
-	}
+nav {
+	display: block;
+	position: fixed;
+	background-color: #dbdbdb;
+	margin-left: 10vw;
+	width: 12vw;
+	text-align: left;
+}
 
-#sofa {
-	position: relative;
-	background-color: grey;
-	border-style: round;
-	border-width: 5px;
-	text-align: center;
-	}
+nav a {
+	margin-left: -10px;
+}
+
+nav a:hover {
+	margin-left: 0px;
+}
