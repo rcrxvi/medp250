@@ -3,31 +3,51 @@
 
 body {
 	background-color: #white;
-	font-family: 'Alice'}
-			
-header {
-	display: block;
-	z-index: 10;
-	margin: 0 auto;
-	text-align: center;
-	padding: 5px;
-	position:relative;
-	top: 1vw;
-	}
+	font-family: 'avenir'}
 
-nav {
+header {
 	display: block;
 	position: fixed;
 	background-color: #ededed;
 	margin-left: 10vw;
-	width: 12vw;
+	margin-top: 5vw;
+	width: 26vw;
+	text-align: left;
+	}
+
+header h1, h2 {
+	font-size: 1.5em;
+	margin-left: -10px;
+	border-style: solid;
+	border-width: 3px;
+	padding: 7px;
+}
+
+nav {
+	display: inline;
+	position: fixed;
+	background-color: transparent;
+	margin-top: 22vw;
+	margin-left: 20vw;
+	width: 60vw;
 	text-align: left;
 }
 
-nav a {
-	margin-left: -10px;
+nav ul {
+	margin-right: 10px;
+	display: inline;
+	padding: 15px;
+	background-color: #ededed;
 }
 
-nav a:hover {
-	margin-left: 0px;
+nav a{	
+	font-size: 1em;
+	margin-left: -20px;
+	border-style: solid;
+	border-width: 2.5px;
+	padding: 7px;
+
 }
+
+
+
