@@ -19,6 +19,10 @@ header {
 	z-index: 12;
 	}
 
+a {
+	color: #a6e7ff;
+}
+
 h1 {
 	margin-bottom: -4px;
 }
@@ -38,14 +42,13 @@ h1 {
 #cormid {
 	position: relative;
 	display: block;
-	background-color: white;
+	background-color: #212121;
 	margin: 0 auto;
-	width: 800px;
+	width: 770px;
 	height: 390px;
-	justify-content: center;
-	align-content: center;
-	text-align: center;
+	text-align: left;
 	padding-top: 120px;
+	padding-left: 30px;
 	border: 10px;
 	border-color: transparent;
 	border-style: solid;
@@ -53,8 +56,8 @@ h1 {
 
 
 #cormid:hover {
-	background-color: #ebebeb;
-	border-color: #d1dff0;
+	background-color:  #212121;
+	border-color: #ffeb59;
 	border-style: ridge;
 }
 
@@ -68,13 +71,13 @@ h1 {
 	margin-top: -80px;
 	width: 100%;
 	height: 1220px;
-	background-color: #cfcfcf;
+	background-color: #212121;
 	padding: 100px 0px 0px 0px;
 }
 
 #print1 {
 	position: relative;
-	background-color: #d8eddf;
+	background-color: #9c0044;
 	left: 45px;
 	bottom: 40px;
 	width: 80px;
@@ -88,13 +91,13 @@ h1 {
 }
 
 #print1 p:hover {
-	color: black;
+	color: #e8e8e8;
 }
 
 
 #print2 {
 	position: relative;
-	background-color: #faeee3;
+	background-color: #00249c;
 	left: 650%;
 	bottom: 40px;
 	top: -134px;
@@ -104,13 +107,13 @@ h1 {
 	border-color: #8c7f6d;
 	border-style: ridge;
 	text-align: center;
-	padding: 20px 30px 30px 30px;
+	padding: 0px 30px 50px 30px;
 	color: transparent;
 }
 
 #print3 {
 	position: relative;
-	background-color: #dae8ed;	
+	background-color: #008028;	
 	left: 550%;
 	top: -152px;
 	width:80px;
@@ -137,11 +140,11 @@ h1 {
 #curtain {
 	margin-top: -225px;
 	display: block;
-	background-color: #1f1f1f;
+	background-color: black;
 	height: 600px;
 	width: 50px;
 	position: relative;
-	left: 24px;
+	left: 33px;
 	z-index: 0;
 }
 
@@ -151,11 +154,11 @@ h1 {
 .curtains {
 	margin-top: -19px;
 	display: block;
-	background-color: #1f1f1f;
+	background-color: black;
 	height: 600px;
 	width: 50px;
 	position: relative;
-	left: 100px;
+	left: 96px;
 	z-index: 0;
 }
 
@@ -168,9 +171,11 @@ h1 {
 	width: 97%;
 	height:500px;
 	padding:20px;
-	background-color: #fffbe6;
+	background-color: #403f2f;
 	text-align: center;
 	font-size: 1.5em;
+	color: #fff426;
+	font-size: 1.3em;
 }
 
 #rug1 {
@@ -242,20 +247,20 @@ h1 {
 	margin-left: 20px;
 	width: 180px;
 	height:500px;
-	background-color:#bf9b84;
-	border: 4px ridge #ab8974;
+	background-color:#e0a080;
+	border: 4px ridge #ffc5a8;
 	z-index: 1;
 }
 
 #cherrywood2 {
 	position: relative;
 	display: block;
-	margin-top: -499px;
+	margin-top: -475px;
 	margin-left: 670px;
 	width: 180px;
 	height:500px;
-	background-color:#bf9b84;
-	border: 4px ridge #ab8974;
+	background-color:#e0a080;
+	border: 4px ridge #ffc5a8;
 	z-index: 0;
 }
 
@@ -266,8 +271,8 @@ h1 {
 	height: 220px;
 	margin-left: 50px;
 	margin-top: -220px;
-	background-color: #707070;
-	border: 20px ridge #474747;
+	background-color: #ededed;
+	border: 20px ridge white;
 	border-radius: 15px;
 	z-index: 2;
 }
@@ -279,8 +284,8 @@ h1 {
 	height: 70px;
 	margin-left: 0px;
 	margin-top: 120px;
-	background-color: #707070;
-	border: 20px ridge #474747;
+	background-color: #ededed;
+	border: 20px ridge white;
 	border-radius: 15px;
 	z-index: 3;
 }
@@ -292,8 +297,8 @@ h1 {
 	height: 110px;
 	margin-left: -30px;
 	margin-top: -140px;
-	background-color: #707070;
-	border: 20px ridge #474747;
+	background-color: #ededed;
+	border: 20px ridge white;
 	border-radius: 15px;
 	z-index: 10;
 }
@@ -306,8 +311,8 @@ h1 {
 	height: 110px;
 	margin-left: 540px;
 	margin-top: -150px;
-	background-color: #707070;
-	border: 20px ridge #474747;
+	background-color: #ededed;
+	border: 20px ridge white;
 	border-radius: 15px;
 	z-index: 15;
 }
@@ -318,7 +323,7 @@ h1 {
 	text-align: justify;
 	float: right;
 	margin-right: 40px;
-	margin-top: 50px;
+	margin-top: 20px;
 	width: 300px;
 	background-color: transparent;
 	height: 350px;
