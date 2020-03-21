@@ -239,17 +239,91 @@ h1 {
 #cherrywood1 {
 	position: static;
 	display: block;
-	margin-left: 50px;
-	width: 90px;
-	height:160px;
+	margin-left: 20px;
+	width: 180px;
+	height:500px;
 	background-color:#bf9b84;
+	border: 4px ridge #ab8974;
+	z-index: 1;
+}
+
+#cherrywood2 {
+	position: relative;
+	display: block;
+	margin-top: -511px;
+	margin-left: 670px;
+	width: 180px;
+	height:500px;
+	background-color:#bf9b84;
+	border: 4px ridge #ab8974;
+	z-index: 0;
+}
+
+#sofabody {
+	position: relative;
+	display: block;
+	width: 650px;
+	height: 220px;
+	margin-left: 50px;
+	margin-top: -220px;
+	background-color: #2e2e2e;
+	border: 20px ridge #1c1c1c;
+	border-radius: 15px;
+	z-index: 2;
+}
+
+#seat {
+	position: relative;
+	display: block;
+	width: 620px;
+	height: 70px;
+	margin-left: 0px;
+	margin-top: 120px;
+	background-color: #2e2e2e;
+	border: 20px ridge #1c1c1c;
+	border-radius: 15px;
+	z-index: 3;
+}
+
+#leftarm {
+	position: relative;
+	display: block;
+	width: 100px;
+	height: 110px;
+	margin-left: -30px;
+	margin-top: -140px;
+	background-color: #2e2e2e;
+	border: 20px ridge #1c1c1c;
+	border-radius: 15px;
+	z-index: 10;
 }
 
 
+#rightarm {
+	position: relative;
+	display: block;
+	width: 100px;
+	height: 110px;
+	margin-left: 540px;
+	margin-top: -150px;
+	background-color: #2e2e2e;
+	border: 20px ridge #1c1c1c;
+	border-radius: 15px;
+	z-index: 15;
+}
 
-
-
-
+#sofatext {
+	display: inline-block;
+	position: relative;
+	text-align: justify;
+	float: right;
+	margin-right: 40px;
+	margin-top: 75px;
+	width: 300px;
+	background-color: transparent;
+	height: 350px;
+	padding: 5px 20px 20px 20px;
+	}
 
 
 
