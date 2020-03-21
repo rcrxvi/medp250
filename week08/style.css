@@ -16,7 +16,7 @@ header {
 	top: 0;
 	background-color: #fffbe8;
 	z-index: 12;
-	}
+}
 
 h1 {
 	margin-bottom: -4px;
@@ -34,94 +34,104 @@ h1 {
 }
 
 
-#may {
-	text-
-}
-
-
 #cormid {
 	position: relative;
 	display: block;
 	background-color: #fffbe8;
 	margin: 0 auto;
 	width: 800px;
-	height: 450px;
+	height: 390px;
 	justify-content: center;
 	align-content: center;
 	text-align: center;
-	border: 10px;
-	border-color: #fffbe8;
-	border-style: none;
 	padding-top: 120px;
-	padding-left: 50px;
-	padding-right: 50px;
+	border: 10px;
+	border-color: transparent;
+	border-style: solid;
 }
 
 
 #cormid:hover {
-	position: relative;
-	display: block;
-	background-color: #d1be94;
-	margin: 0 auto;
-	width: 800px;
-	height: 450px;
-	justify-content: center;
-	align-content: center;
-	text-align: center;
+	background-color: #e8d2a2;
 	border: 10px;
 	border-color: #ffe491;
-	border-style: outset;
-	padding-top: 110px;
-	padding-left: 50px;
-	padding-right: 50px;
+	border-style: ridge;
+}
+
+#cormid p {
+	font-size: 1.2em;
+}
+
+#grey {
+	position: static;
+	z-index: -1;
+	margin-top: -80px;
+	width: 100%;
+	height: 1200px;
+	background-color: #cfcfcf;
+	padding: 100px 0px 0px 0px;
 }
 
 #print1 {
 	position: relative;
 	background-color: #4a9e68;
-	left: 70px;
+	left: 45px;
 	bottom: 40px;
 	width: 80px;
-	height:110px;
+	height:100px;
 	border: 5px;
+	border-color: #806541;
+	border-style: ridge;
 	text-align: left;
-	padding: 30px;
+	padding: 40px 30px 30px 30px;
+	color:transparent;
 }
+
+#print1 p:hover {
+	color: black;
+}
+
 
 #print2 {
 	position: relative;
 	background-color: #c7844a;
 	left: 650%;
 	bottom: 40px;
-	top: -120px;
+	top: -134px;
 	width:80px;
-	height:110px;
+	height:120px;
 	border: 5px;
+	border-color: #806541;
+	border-style: ridge;
 	text-align: center;
-	padding: 30px;
+	padding: 20px 30px 30px 30px;
+	color: transparent;
 }
 
 #print3 {
 	position: relative;
 	background-color: #4c8aa1;	
 	left: 550%;
-	top: -155px;
+	top: -152px;
 	width:80px;
 	height:110px;
 	border: 5px;
+	border-color: #806541;
+	border-style: ridge;
 	text-align: right;
 	padding: 30px
 }
 
 #rings {
-	text-align: right; 
+	position: relative;
+	text-align: center; 
 	margin-top: -160px; 
 	z-index: 10;
 }
 
 #rings p {
 	font-size: 10em; 
-	color: #694526; 
+	color: #694526;
 }
 
 #curtain {
@@ -131,12 +141,12 @@ h1 {
 	height: 600px;
 	width: 50px;
 	position: relative;
-	left: 18px;
-	z-index: -1;
+	left: 35px;
+	z-index: 0;
 }
 
 #curtain:hover {
-	background-color: #fffbe8;
+	background-color: #bdbdbd;
 }
 .curtains {
 	margin-top: -19px;
@@ -145,58 +155,110 @@ h1 {
 	height: 600px;
 	width: 50px;
 	position: relative;
-	left: 87.9px;
-	z-index: -1;
+	left: 88px;
+	z-index: 0;
 }
 
 .curtains:hover {
-	background-color: #fffbe8;
+	background-color: #bdbdbd;
 }
 
 
 #yellowfloor {
-	width: 100%;
-	height:300px;
+	width: 97%;
+	height:500px;
 	padding:20px;
-	background-color: #ffe96b;
-	text-align: left;
+	background-color: #f0d58b;
+	text-align: center;
 	font-size: 1.5em;
 }
 
 #rug1 {
 	position: relative;
 	background-color: #727fa1;
-	left: 70px;
+	left: 45px;
 	bottom: 40px;
-	top: -200px;
-	width: 80px;
-	height:110px;
+	top: -250px;
+	width: 100px;
+	height: 130px;
 	border: 5px;
+	border-color: #d1b977;
+	border-style: double;
 	text-align: left;
 	padding: 30px;
+	font-size: 2.5em;
 }
 
 #rug2 {
 	position: relative;
-	background-color: #b07f46;
-	left: 650%;
+	background-color: #67826d;
+	left: 470px;
 	bottom: 40px;
-	top: -120px;
-	width:80px;
-	height:110px;
+	top: -250px;
+	width: 100px;
+	height:130px;
 	border: 5px;
+	border-color: #d1b977;
+	border-style: double;
 	text-align: center;
 	padding: 30px;
 }
 
 #rug3 {
 	position: relative;
-	background-color: #775b85;	
-	left: 550%;
-	top: -155px;
-	width:80px;
-	height:110px;
+	background-color: #745d80;	
+	left: 470px;
+	top: -250px;
+	width:100px;
+	height:130px;
 	border: 5px;
+	border-color: #d1b977;
+	border-style: double;
 	text-align: right;
-	padding: 30px
+	padding: 30px;
 }
+
+#twentythree {
+	position: static;
+	top: -50px;
+	background-color: transparent;
+	display: inline;
+	width: 100%
+	height: 50px;
+	text-align: center;
+	font-size: 1.1em;
+	padding:10px;
+}
+
+#twentythree h1 {
+	margin-top: -150px;
+	padding: 15px;
+	border: 2px double #d1b977;
+}
+
+#cherrywood1 {
+	position: static;
+	display: block;
+	margin-left: 50px;
+	width: 90px;
+	height:160px;
+	background-color:#bf9b84;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
