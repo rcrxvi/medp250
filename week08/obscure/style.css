@@ -3,8 +3,9 @@
 
 
 body {
-	background-color: white;
-	font-family: 'Avenir';}
+	background-color: black;
+	font-family: 'Avenir';
+	color: white;}
 			
 header {
 	margin: 0 auto;
@@ -14,7 +15,7 @@ header {
 	height: 100px;
 	padding: 5px;
 	top: 0;
-	background-color: white;
+	background-color: black;
 	z-index: 12;
 	}
 
@@ -34,170 +35,171 @@ h1 {
 }
 
 
-#may {
-	text-
-}
-
-
 #cormid {
 	position: relative;
 	display: block;
-	font-size: 1.5em;
 	background-color: white;
 	margin: 0 auto;
 	width: 800px;
-	height: 450px;
+	height: 390px;
 	justify-content: center;
 	align-content: center;
 	text-align: center;
+	padding-top: 120px;
 	border: 10px;
-	border-color: white;
-	border-style: none;
-	padding-top: 50px;
-	padding-left: 50px;
-	padding-right: 50px;
+	border-color: transparent;
+	border-style: solid;
 }
 
 
 #cormid:hover {
-	position: relative;
-	display: block;
 	background-color: #ebebeb;
-	margin: 0 auto;
-	width: 800px;
-	height: 450px;
-	justify-content: center;
-	align-content: center;
-	text-align: center;
-	border: 10px;
 	border-color: #d1dff0;
-	border-style: outset;
-	padding-top: 40px;
-	padding-left: 50px;
-	padding-right: 50px;
+	border-style: ridge;
+}
+
+#cormid p {
+	font-size: 1.2em;
+}
+
+#grey {
+	position: static;
+	z-index: -1;
+	margin-top: -80px;
+	width: 100%;
+	height: 1220px;
+	background-color: #cfcfcf;
+	padding: 100px 0px 0px 0px;
 }
 
 #print1 {
 	position: relative;
 	background-color: #d8eddf;
-	left: 70px;
+	left: 45px;
 	bottom: 40px;
 	width: 80px;
-	height:110px;
+	height:100px;
 	border: 5px;
+	border-color: #8c7f6d;
+	border-style: ridge;
 	text-align: left;
-	padding: 30px;
+	padding: 40px 30px 30px 30px;
+	color:transparent;
 }
 
-#print1: hover {
-	position: relative;
-	background-color: #a3d9b6;
-	left: 70px;
-	bottom: 40px;
-	width: 80px;
-	height:110px;
-	border: 5px;
-	text-align: left;
-	padding: 30px;
+#print1 p:hover {
+	color: black;
 }
+
 
 #print2 {
 	position: relative;
 	background-color: #faeee3;
 	left: 650%;
 	bottom: 40px;
-	top: -120px;
-	width: 80px;
-	height:110px;
+	top: -134px;
+	width:80px;
+	height:120px;
 	border: 5px;
+	border-color: #8c7f6d;
+	border-style: ridge;
 	text-align: center;
-	padding: 30px;
+	padding: 20px 30px 30px 30px;
+	color: transparent;
 }
 
 #print3 {
 	position: relative;
 	background-color: #dae8ed;	
 	left: 550%;
-	top: -155px;
+	top: -152px;
 	width:80px;
 	height:110px;
 	border: 5px;
+	border-color: #8c7f6d;
+	border-style: ridge;
 	text-align: right;
 	padding: 30px
 }
 
 #rings {
-	text-align: right; 
+	position: relative;
+	text-align: center; 
 	margin-top: -160px; 
 	z-index: 10;
 }
 
 #rings p {
 	font-size: 10em; 
-	color: #a1a1a1; 
+	color:#a1a1a1;
 }
 
 #curtain {
 	margin-top: -225px;
 	display: block;
 	background-color: #1f1f1f;
-	height: 300px;
+	height: 600px;
 	width: 50px;
 	position: relative;
-	left: 20px;
-	z-index: -1;
+	left: 24px;
+	z-index: 0;
 }
 
 #curtain:hover {
-	background-color: #fffbe8;
+	background-color: #bdbdbd;
 }
-.curtain {
-	margin-top: -22px;
+.curtains {
+	margin-top: -19px;
 	display: block;
 	background-color: #1f1f1f;
-	height: 300px;
+	height: 600px;
 	width: 50px;
 	position: relative;
-	left: 101px;
-	z-index: -1;
+	left: 100px;
+	z-index: 0;
 }
 
-.curtain :hover {
-	background-color: #fffbe8;
+.curtains:hover {
+	background-color: #bdbdbd;
 }
 
 
 #yellowfloor {
-	width: 100%;
-	height:300px;
+	width: 97%;
+	height:500px;
 	padding:20px;
 	background-color: #fffbe6;
-	text-align: left;
+	text-align: center;
 	font-size: 1.5em;
 }
 
 #rug1 {
 	position: relative;
 	background-color: #d8deed;
-	left: 70px;
+	left: 45px;
 	bottom: 40px;
-	top: -200px;
-	width: 80px;
-	height:110px;
+	top: -250px;
+	width: 100px;
+	height: 130px;
 	border: 5px;
+	border-color: #d1b977;
+	border-style: double;
 	text-align: left;
 	padding: 30px;
+	font-size: 2.5em;
 }
 
 #rug2 {
 	position: relative;
 	background-color: #f5e9dc;
-	left: 650%;
+	left: 470px;
 	bottom: 40px;
-	top: -120px;
-	width:80px;
-	height:110px;
+	top: -250px;
+	width: 100px;
+	height:130px;
 	border: 5px;
+	border-color: #d1b977;
+	border-style: double;
 	text-align: center;
 	padding: 30px;
 }
@@ -205,11 +207,121 @@ h1 {
 #rug3 {
 	position: relative;
 	background-color: #f2e6f7;	
-	left: 550%;
-	top: -155px;
-	width:80px;
-	height:110px;
+	left: 470px;
+	top: -250px;
+	width:100px;
+	height:130px;
 	border: 5px;
+	border-color: #d1b977;
+	border-style: double;
 	text-align: right;
-	padding: 30px
+	padding: 30px;
 }
+
+#twentythree {
+	position: static;
+	top: -50px;
+	background-color: transparent;
+	display: inline;
+	width: 100%
+	height: 50px;
+	text-align: center;
+	font-size: 1.1em;
+	padding:10px;
+}
+
+#twentythree h1 {
+	margin-top: -150px;
+	padding: 15px;
+	border: 2px double #d1b977;
+}
+
+#cherrywood1 {
+	position: static;
+	display: block;
+	margin-left: 20px;
+	width: 180px;
+	height:500px;
+	background-color:#bf9b84;
+	border: 4px ridge #ab8974;
+	z-index: 1;
+}
+
+#cherrywood2 {
+	position: relative;
+	display: block;
+	margin-top: -499px;
+	margin-left: 670px;
+	width: 180px;
+	height:500px;
+	background-color:#bf9b84;
+	border: 4px ridge #ab8974;
+	z-index: 0;
+}
+
+#sofabody {
+	position: relative;
+	display: block;
+	width: 650px;
+	height: 220px;
+	margin-left: 50px;
+	margin-top: -220px;
+	background-color: #707070;
+	border: 20px ridge #474747;
+	border-radius: 15px;
+	z-index: 2;
+}
+
+#seat {
+	position: relative;
+	display: block;
+	width: 620px;
+	height: 70px;
+	margin-left: 0px;
+	margin-top: 120px;
+	background-color: #707070;
+	border: 20px ridge #474747;
+	border-radius: 15px;
+	z-index: 3;
+}
+
+#leftarm {
+	position: relative;
+	display: block;
+	width: 100px;
+	height: 110px;
+	margin-left: -30px;
+	margin-top: -140px;
+	background-color: #707070;
+	border: 20px ridge #474747;
+	border-radius: 15px;
+	z-index: 10;
+}
+
+
+#rightarm {
+	position: relative;
+	display: block;
+	width: 100px;
+	height: 110px;
+	margin-left: 540px;
+	margin-top: -150px;
+	background-color: #707070;
+	border: 20px ridge #474747;
+	border-radius: 15px;
+	z-index: 15;
+}
+
+#sofatext {
+	display: inline-block;
+	position: relative;
+	text-align: justify;
+	float: right;
+	margin-right: 40px;
+	margin-top: 50px;
+	width: 300px;
+	background-color: transparent;
+	height: 350px;
+	padding: 5px 20px 20px 20px;
+	}
+
