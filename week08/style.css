@@ -5,6 +5,14 @@ p {
 	font-size: .8em;
 }
 
+header{
+	width: 100%;
+	position: fixed;
+	margin-top:-20px;
+	background-color: white;
+}
+
+
 header h3{
 	background-color: transparent;
 	border: none;
@@ -40,5 +48,48 @@ h3 {
   width: 500px;
   margin: 10px;
   padding: 10px 20px 10px 20px;
+}
+
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* MOBILE VIEW */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+header {
+	background-color: white;
+	position: fixed;
+	margin-top: -20px;
+	width: 100%;}
+
+h3 {
+	font-size: 1.5em;
+}
+
+p {
+	font-size: 1.1em;
+}
+
+.flex-container {
+  height: 100%;
+  display:flex;
+  background-color: transparent;
+  flex-wrap: row;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+  padding: 10px 20px 10px 20px;
+}
+
 }
 
