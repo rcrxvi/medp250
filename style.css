@@ -12,7 +12,7 @@ header {
 	margin-left: 6vw;
 	margin-top: 10vw;
 	text-align: left;
-	width: 30vw;
+	width: 320px;
 	}
 
 header h1, h2 {
@@ -92,7 +92,8 @@ nav {
 
 nav ul {
 	background-color: #ededed;
-	width: 55%;
+	width: 140px;
+	height: 60px;
 
 }
 
