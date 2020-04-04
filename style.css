@@ -7,12 +7,12 @@ body {
 
 header {
 	display: block;
-	position: fixed;
+	position: static;
 	background-color: #ededed;
-	margin-left: 10vw;
-	margin-top: 5vw;
-	width: 26vw;
+	margin-left: 6vw;
+	margin-top: 10vw;
 	text-align: left;
+	width: 30vw;
 	}
 
 header h1, h2 {
@@ -24,13 +24,13 @@ header h1, h2 {
 }
 
 nav {
-	display: inline-flex;
+	position: static;
+	display: flex;
 	flex-wrap: wrap;
-	position: fixed;
 	background-color: transparent;
-	margin-top: 23vw;
+	margin-top: 5vw;
 	margin-left: 15%;
-	width: 70vw;
+	width: 100vw;
 	text-align: left;
 }
 
@@ -39,10 +39,12 @@ nav ul {
 	display: inline;
 	padding: 15px;
 	background-color: #ededed;
+	transition: all 0.3s ease-in-out;
 }
 
 nav ul:hover {
 	background-color: #d3edd1;
+	transition: all 0.1s ease-in-out;
 }
 
 
@@ -55,6 +57,48 @@ nav a{
 	color: black;
 	border-color: black;
 }
+
+/* MOBILE VIEW */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 828px) 
+  and (-webkit-min-device-pixel-ratio: 1)
+  and (orientation: portrait) { 
+
+
+header {
+	display: block;
+	position: static;
+	background-color: #ededed;
+	margin-left: 10vw;
+	margin-top: 10vw;
+	width: 90vw;
+	text-align: left;
+	}
+
+header h1, h2 {
+	font-size: 4em;
+	border-width: 5px;
+	padding: 10px;
+	margin-left: -20px;
+}
+
+nav {
+	margin-top: 5vw;
+	position: static;
+	flex-flow: row wrap;
+}
+
+
+nav a{	
+	font-size: 2.5em;
+	border-width: 4px;
+	padding: 15px 30px 15px 15px;
+	padding-color: transparent;
+	margin-left: -20px;
+}
+
+  	}
 
 
 
