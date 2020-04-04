@@ -34,6 +34,13 @@ h3 {
 	margin-top: -65px;
 }
 
+#title {
+	position: static;
+	width: 100%;
+	text-align: center;
+	margin-top: 80px;
+}
+
 .flex-container {
   height: 100%;
   display:flex;
@@ -68,23 +75,30 @@ header {
 	width: 100%;}
 
 h3 {
-	font-size: 1.5em;
+	font-size: 2em;
 }
 
 p {
-	font-size: 1.1em;
+	font-size: 1.7em;
+}
+
+#title {
+	margin-top: 150px;
+	position: static;
+	width: 100%;
+	text-align: center;
 }
 
 .flex-container {
   height: 100%;
   display:flex;
   background-color: transparent;
-  flex-wrap: row;
+  flex-direction: column;
   justify-content: center;
 }
 
 .flex-container > div {
-  background-color: white;
+  background-color: transparent;
   height: 100%;
   width: 100%;
   margin: 10px;
