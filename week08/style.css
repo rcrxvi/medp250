@@ -105,7 +105,7 @@ p {
 .flex-container > div {
   background-color: transparent;
   height: 100%;
-  width: 100%;
+  width: 95%;
   margin: 10px;
   padding: 10px;
 }
