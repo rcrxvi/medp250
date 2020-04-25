@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>week 10</title>
+	<!-- Thanks! Adapted from an exercise by Laurel Schwulst! -->
+	<style>
+	
+	/* HERE YOUR CODE */
+	 
+	</style>
+	
+	<script type="text/javascript">
+
+		// run the folowing code when the page has loaded.
+		window.onload = function() { 
+		   
+			// first thing, store some HTML elements in variables. This makes it easier to refer to these things later on, it's just for saving room.
+			var you fill = document.getElementById("you fill");
+		
+
+			// now define a few arrays. The items in these arrays will be used to populate the HTML.
+
+
+			// select_random is a function that returns a random item from an array. 
+			// x, in the parentheses, is called a parameter. It's like a variable that only exists in the scope of one function. 
+			// When we run this function later on, we'll replace x with the name of the array that we want to select from.
+			function select_random(x){
+				y = x[Math.floor(Math.random()*x.length)];
+				return y;
+			}
+
+			// this is a function called generate.
+			function generate(){
+
+				// the first generate it does is create four variables. Each variable is assigned a value. The value is the random item from each array.
+				var selected_one = select_random(line_one);
+				var selected_two = select_random(line_two);
+				var selected_three = select_random(line_three);
+				var selected_four = select_random(line_four);
+
+				// Now, take the random item from the array, and change the HTML content of each item to that value.
+				first_line.innerHTML = selected_one;
+				second_line.innerHTML = selected_two;
+				third_line.innerHTML = selected_three;
+				fourth_line.innerHTML = selected_four;
+
+			}
+
+			// When you click the 'button', run the 'generate' function. This will change the content of the page.
+			document.getElementById('button').onclick =function(){
+
+				// also, tell us that we're clicking, so we can make sure this works!
+				console.log('click');
+				generate();
+			};
+
+			// This is necessary so that when the page loads, it automatically runs generate.
+			generate();
+	
+		} 
+	</script>
+
+</head>
+
+<body>
+
+	<div class="button-container">
+		<button id="button">Again</button>
+	</div>
+
+	<div id="line-one"></div>
+	<div id="line-two"></div>
+	<div id="line-three"></div>
+	<div id="line-four"></div>
+
+</body>
+
+</html>
