@@ -10,7 +10,9 @@
 	<!-- Thanks! Adapted from an exercise by Laurel Schwulst! -->
 	<style>
 	
-	/* HERE YOUR CODE */
+	body {
+	background-color: white;
+	font-family: 'avenir'}
 	 
 	</style>
 	
@@ -20,11 +22,42 @@
 		window.onload = function() { 
 		   
 			// first thing, store some HTML elements in variables. This makes it easier to refer to these things later on, it's just for saving room.
-			var you fill = document.getElementById("you fill");
+			var line_one = document.getElementById("line-one");
+			var line_two = document.getElementById("line-two");
+			var line_three = document.getElementById("line-three");
+			var line_four = document.getElementById("line-four");
 		
+			// * var button = document.getElementById("button"); * //
 
-			// now define a few arrays. The items in these arrays will be used to populate the HTML.
+			// ARRAYS HERE! The items in these arrays will be used to populate the HTML.
 
+			var first = [
+			"this is",
+			"this isn't",
+			"this should be",
+			"this will never be"
+			];
+
+			var second = [
+			"real life.",
+			"happiness.",
+			"fate.",
+			"your future."
+			];
+			
+			var third = [
+			"you will",
+			"you need to",
+			"you may",
+			"you don't have to"
+			];
+
+			var fourth = [
+			"break free.",
+			"accept it.",
+			"fight.",
+			"learn to love."
+			];
 
 			// select_random is a function that returns a random item from an array. 
 			// x, in the parentheses, is called a parameter. It's like a variable that only exists in the scope of one function. 
@@ -38,16 +71,16 @@
 			function generate(){
 
 				// the first generate it does is create four variables. Each variable is assigned a value. The value is the random item from each array.
-				var selected_one = select_random(line_one);
-				var selected_two = select_random(line_two);
-				var selected_three = select_random(line_three);
-				var selected_four = select_random(line_four);
+				var selected_one = select_random(first);
+				var selected_two = select_random(second);
+				var selected_three = select_random(third);
+				var selected_four = select_random(fourth);
 
 				// Now, take the random item from the array, and change the HTML content of each item to that value.
-				first_line.innerHTML = selected_one;
-				second_line.innerHTML = selected_two;
-				third_line.innerHTML = selected_three;
-				fourth_line.innerHTML = selected_four;
+				line_one.innerHTML = selected_one;
+				line_two.innerHTML = selected_two;
+				line_three.innerHTML = selected_three;
+				line_four.innerHTML = selected_four;
 
 			}
 
@@ -69,14 +102,14 @@
 
 <body>
 
-	<div class="button-container">
-		<button id="button">Again</button>
-	</div>
-
 	<div id="line-one"></div>
 	<div id="line-two"></div>
 	<div id="line-three"></div>
 	<div id="line-four"></div>
+
+	<div class="button-container">
+		<button id="button">load</button>
+	</div>
 
 </body>
 
