@@ -1,0 +1,94 @@
+
+body {
+	background-color: white;
+	font-family: 'avenir'
+}
+
+header {
+	position: fixed;
+	margin-top: -10px;
+	background-color: #e6e6e6;
+	width: 100%;
+	height: 150px;
+}
+
+header h1 {
+	position: absolute;
+	bottom: 0;
+	right: 50px;
+
+}
+
+.btn {
+	position: fixed;
+	display: block;
+	left: 50px;
+	height: 30px;
+	color: black;
+	background-color: transparent;
+	padding: 10px;
+	margin-top: 100px;
+}
+
+.btn h2 {
+	margin-top: -5px;
+}
+
+
+/* HAMBURGER ICON
+
+.hamburger {
+	position: fixed;
+	left: 50px;
+	top: 110px;
+	display: inline-block;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/*list
+
+/* Rotate first bar 
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar 
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar 
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+*/
+
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.item {
+  margin: 10px 30px 20px 0;
+}
+
+.archive-image {
+  width: 325px;
+  object-fit: cover;
+  border: 1px solid hsl(0, 0%, 90%);
+  box-shadow: 0px 0px 10px -3px hsla(0, 0%, 30%, 0.3);
+}
