@@ -1,7 +1,6 @@
-
 body {
 	background-color: white;
-	font-family: 'avenir'
+	font-family: 'Jost', sans-serif;
 }
 
 header {
@@ -14,8 +13,10 @@ header {
 
 header h1 {
 	position: absolute;
-	bottom: 0;
-	right: 50px;
+	bottom: -10px;
+	right: 80px;
+	font-family: 'Fredericka the Great', cursive; 
+	font-size: 3em;
 
 }
 
@@ -35,7 +36,7 @@ header h1 {
 }
 
 
-/* HAMBURGER ICON
+/* HAMBURGER ICON */
 
 .hamburger {
 	position: fixed;
@@ -54,32 +55,30 @@ header h1 {
   transition: 0.4s;
 }
 
-/*list
-
-/* Rotate first bar 
+/* Rotate first bar */
 .change .bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
   transform: rotate(-45deg) translate(-9px, 6px) ;
 }
 
-/* Fade out the second bar 
+/* Fade out the second bar */
 .change .bar2 {
   opacity: 0;
 }
 
-/* Rotate last bar 
+/* Rotate last bar */
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
   transform: rotate(45deg) translate(-8px, -8px) ;
 }
 
-*/
-
 
 .grid {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 10px 0;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 0 auto;
+
 }
 
 .item {
@@ -87,7 +86,8 @@ header h1 {
 }
 
 .archive-image {
-  width: 325px;
+  width: 385px;
+  height: 385px;
   object-fit: cover;
   border: 1px solid hsl(0, 0%, 90%);
   box-shadow: 0px 0px 10px -3px hsla(0, 0%, 30%, 0.3);

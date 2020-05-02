@@ -94,6 +94,36 @@ var organizedArchiveItems = [
   {
     imageFile: 'book6.jpg',
     type: 'book'
+  },
+
+  {
+    imageFile: 'plant1.jpg',
+    type: 'plant'
+  },
+
+  {
+    imageFile: 'plant2.jpg',
+    type: 'plant'
+  },
+
+  {
+    imageFile: 'plant3.jpg',
+    type: 'plant'
+  },
+
+  {
+    imageFile: 'plant4.jpg',
+    type: 'plant'
+  },
+
+  {
+    imageFile: 'plant5.jpg',
+    type: 'plant'
+  },
+
+  {
+    imageFile: 'plant6.jpg',
+    type: 'plant'
   }
 
 ];
