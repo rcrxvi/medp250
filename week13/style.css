@@ -86,7 +86,7 @@ header h1 {
 }
 
 .archive-image {
-  width: 385px;
+  width: 380px;
   height: 385px;
   object-fit: cover;
   border: 1px solid hsl(0, 0%, 90%);
