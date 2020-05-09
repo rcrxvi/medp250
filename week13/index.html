@@ -15,12 +15,24 @@
 <body>
 	<header>
 		<h1>parts of a home</h1>
-
-	<div id= "dropdown">
-	<button onclick="myFunction()" class="btn"><h2>menu</h2></button>
-	</div>
-
 	</header>
+
+
+<div class="controls">
+        <p>menu:</p>
+        <button onclick="randomize()">randomize</button>
+        <select name="filtering" id="filter" onchange="filterContent()">
+          <option value="" disabled selected>filter</option>
+          <option value="1">fabrics</option>
+          <option value="2">wall decor</option>
+          <option value="3">books</option>
+          <option value="4">plants</option>
+        </select>
+      </div>
+
+
+
+
 
 
 	<div class="grid">

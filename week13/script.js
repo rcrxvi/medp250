@@ -13,117 +13,140 @@ var oldItemsArrayExample = ['image-1.jpg', 'image-2.jpg', 'image-3.jpg', '...'];
 var organizedArchiveItems = [
   {
     imageFile: 'fabric1.jpg',
-    type: 'fabric'
+    type: 'fabric',
+    number: '1'
   },
 
   {
     imageFile: 'fabric2.jpg',
-    type: 'fabric'
+    type: 'fabric',
+    number: '1'
   },
 
   {
     imageFile: 'fabric3.jpg',
-    type: 'fabric'
+    type: 'fabric',
+    number: '1'
   },
 
   {
     imageFile: 'fabric4.jpg',
-    type: 'fabric'
+    type: 'fabric',
+    number: '1'
   },
 
   {
     imageFile: 'fabric5.jpg',
-    type: 'fabric'
+    type: 'fabric',
+    number: '1'
   },
 
   {
     imageFile: 'wall1.jpg',
-    type: 'walldecor'
+    type: 'walldecor',
+    number: '2'
   },
 
   {
     imageFile: 'wall2.jpg',
-    type: 'walldecor'
+    type: 'walldecor',
+    number: '2'
   },
 
   {
     imageFile: 'wall3.jpg',
-    type: 'walldecor'
+    type: 'walldecor',
+    number: '2'
   },
 
   {
     imageFile: 'wall4.jpg',
-    type: 'walldecor'
+    type: 'walldecor',
+    number: '2'
   },
   
   {
     imageFile: 'wall5.jpg',
-    type: 'walldecor'
+    type: 'walldecor',
+    number: '2'
   },
   
   {
     imageFile: 'wall6.jpg',
-    type: 'walldecor'
+    type: 'walldecor',
+    number: '2'
   },
   
   {
     imageFile: 'book1.jpg',
-    type: 'book'
+    type: 'book',
+    number: '3'
   },
 
   {
     imageFile: 'book2.jpg',
-    type: 'book'
+    type: 'book',
+    number: '3'
   },
 
   {
     imageFile: 'book3.jpg',
-    type: 'book'
+    type: 'book',
+    number: '3'
   },
 
   {
     imageFile: 'book4.jpg',
-    type: 'book'
+    type: 'book',
+    number: '3'
   },
 
   {
     imageFile: 'book5.jpg',
-    type: 'book'
+    type: 'book',
+    number: '3'
   },
 
   {
     imageFile: 'book6.jpg',
-    type: 'book'
+    type: 'book',
+    number: '3'
   },
 
   {
     imageFile: 'plant1.jpg',
-    type: 'plant'
+    type: 'plant',
+    number: '4'
   },
 
   {
     imageFile: 'plant2.jpg',
-    type: 'plant'
+    type: 'plant',
+    number: '4'
   },
 
   {
     imageFile: 'plant3.jpg',
-    type: 'plant'
+    type: 'plant',
+    number: '4'
   },
 
   {
     imageFile: 'plant4.jpg',
-    type: 'plant'
+    type: 'plant',
+    number: '4'
   },
 
   {
     imageFile: 'plant5.jpg',
-    type: 'plant'
+    type: 'plant',
+    number: '4'
   },
 
   {
     imageFile: 'plant6.jpg',
-    type: 'plant'
+    type: 'plant',
+    number: '4'
   }
 
 ];
@@ -148,7 +171,7 @@ generate(organizedArchiveItems); // run function on page load, passing in our fu
 function filterContent() {
   var value = +event.target.value; // get the value from the HTML select dropdown and convert to number with "+"
   var filteredItems = organizedArchiveItems.filter(item => {
-    return item.type = 'book'; // loops through all items in array and filters out items that don't have a year less than the dropdown value
+    return item.number = value;// loops through all items in array and filters out items that don't have a year less than the dropdown value
   });
   generate(filteredItems); // run function to generate content with new filteredItems array
 }
