@@ -48,8 +48,12 @@ header h1 {
   width: 55px;
   font-size: 1.5em;
   text-align: left;
-  height: 200px;
+  height: 150px;
   width: 130px;
+}
+.menu p {
+	margin-left: 5px;
+	text-rendering: bold;
 }
 
 .menu:hover {
@@ -68,7 +72,7 @@ select {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
-  color: hsl(5, 70%, 60%);
+  color: #4c3ca3;
   border: 1px solid hsl(5, 50%, 60%);
   border: none;
   font-family: inherit;
@@ -81,17 +85,18 @@ select:hover {
 }
 
 .filtername {
-	position: fixed;
+	position: absolute;
 	z-index: -999;
-	top: 300px;
+	top: 340px;
 	right: 10px;
 	text-align: right;
 }
 
 .filtername h3 {
-	font-size: 5em;
+	font-size: 4.7em;
 	color: #e6e6e6;
 	margin-right: 30px;
+	padding-bottom: 120px;
 } 
 
 .filtername h3:hover {
