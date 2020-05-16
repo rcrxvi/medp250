@@ -42,6 +42,12 @@ var organizedArchiveItems = [
   },
 
   {
+    imageFile: 'fabric6.jpg',
+    type: 'fabric',
+    number: '1'
+  },
+
+  {
     imageFile: 'wall1.jpg',
     type: 'walldecor',
     number: '2'
@@ -147,6 +153,42 @@ var organizedArchiveItems = [
     imageFile: 'plant6.jpg',
     type: 'plant',
     number: '4'
+  },
+
+  {
+    imageFile: 'furniture1.jpg',
+    type: 'furniture',
+    number: '5'
+  },
+
+  {
+    imageFile: 'furniture2.jpg',
+    type: 'furniture',
+    number: '5'
+  },
+
+  {
+    imageFile: 'furniture3.jpg',
+    type: 'furniture',
+    number: '5'
+  },
+
+  {
+    imageFile: 'furniture4.jpg',
+    type: 'furniture',
+    number: '5'
+  },
+
+  {
+    imageFile: 'furniture5.jpg',
+    type: 'furniture',
+    number: '5'
+  },
+
+  {
+    imageFile: 'furniture6.jpg',
+    type: 'furniture',
+    number: '5'
   }
 
 ];
