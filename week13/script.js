@@ -171,7 +171,7 @@ generate(organizedArchiveItems); // run function on page load, passing in our fu
 function filterContent() {
   var value = event.target.value; // get the value from the HTML select dropdown and convert to number with "+"
   var filteredItems = organizedArchiveItems.filter(item => {
-    return item.type = value;// loops through all items in array and filters out items that don't have a year less than the dropdown value
+    return item.number = value;// loops through all items in array and filters out items that don't have a year less than the dropdown value
   });
   generate(filteredItems); // run function to generate content with new filteredItems array
 }
