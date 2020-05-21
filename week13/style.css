@@ -233,6 +233,10 @@ button p {
 	font-style: italic;
 }
 
+button:hover {
+	width: 49%;
+}
+
 
 #about p{
 	text-align: left; 
@@ -246,3 +250,5 @@ button p {
 .filtername h3 {
 	padding-bottom: 22px;
 } 
+
+
