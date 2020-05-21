@@ -22,6 +22,7 @@ header h1 {
 	font-size: 2.5em;
 
 }
+
 header a {
 	color: black;
 	text-decoration: none;
@@ -49,49 +50,55 @@ header a:visited {
 
 
 .menu {
-  background-color: #f0f0f0;
+  background-color: transparent;
   position: fixed;
-  top: 150px;
+  top: 100px;
   left: -15px;
   z-index: 2;
   padding: 10px 0 10px 20px;
-  width: 55px;
+  width: 40px;
   font-size: 1.5em;
   text-align: left;
-  height: 170px;
-  width: 110px;
+  width: 100px;
 }
 .menu p {
 	margin-left: 5px;
 	text-rendering: bold;
 }
 
-.menu:hover {
-	height: ;
+
+button {
+	border: none;
+	color: transparent;
+	position: relative;
+	top: 10px;
+	width: 20px;
+	background-color: #f0f0f0;
+	text-rendering: none;
+	transition: all 0.3s ease-in-out;
+	padding: 5px;
+
 }
+
+button:hover {
+	color: black;
+	width: 100%;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+button a{
+	color: inherit;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+
 
 
 .controls > * {
   display: inline-block;
   margin-right: 10px;
-}
-
-button,
-select {
-  background-color: transparent;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 14px;
-  color: #4c3ca3;
-  border: 1px solid hsl(5, 50%, 60%);
-  border: none;
-  font-family: inherit;
-}
-
-button:hover,
-select:hover {
-  cursor: pointer;
-  font-style: italic;
 }
 
 .filtername {
@@ -107,10 +114,12 @@ select:hover {
 	color: #e6e6e6;
 	margin-right: 30px;
 	padding-bottom: 120px;
+	transition: all 0.3s ease-in-out;
 } 
 
 .filtername h3:hover {
 	color: #292929;
+	transition: all 0.3s ease-in-out;
 }
 
 
@@ -131,11 +140,11 @@ select:hover {
   width: 300px;
   height: 300px;
   object-fit: cover;
-  padding-left: 30px;
+  padding-left: 50px;
   padding-bottom: 50px;
 }
 
-.archive-img > img {
+.archive-image img {
 	box-shadow: 0px 0px 10px -3px hsla(0, 0%, 30%, 0.6);
 }
 
@@ -147,3 +156,82 @@ select:hover {
 	width: 75%;
 	background-color: transparent;
 }
+
+
+#bottombar {
+  display: none;
+}
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* MOBILE VIEW */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 828px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+header {
+	text-align: left;
+	height: 130px;
+}
+
+header h1 {
+	font-size: 3.5em;
+	margin-top: 5px;
+	margin-left: 25px;
+
+}
+
+.grid {
+	margin-top: 120px;
+}
+.menu {
+	display: none;
+}
+
+
+.archive-image {
+  width: 260px;
+  height: 260px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+} 
+
+#bottombar {
+	display: block;
+  position: fixed;
+  background-color: #f0f0f0;
+  left: -7px;
+  bottom: -10px;
+  height: 100px;
+  z-index: 2;
+  padding: 10px 0 10px 20px;
+  font-size: 1.5em;
+  width: 100%;
+}
+
+
+button {
+	border: none;
+	color: white;
+	position: relative;
+	width: 49%;
+	text-align: center;
+	transition: all 0.3s ease-in-out;
+}
+
+button p {
+	margin-top: 0px;
+	font-size: 5em;
+	font-style: italic;
+}
+
+.filtername {
+	top: 310px;
+}
+
+.filtername h3 {
+	padding-bottom: 22px;
+} 

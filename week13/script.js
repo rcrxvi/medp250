@@ -210,14 +210,6 @@ function generate(items) {
 }
 generate(organizedArchiveItems); // run function on page load, passing in our full array of items
 
-function filterContent() {
-  var value = event.target.value; // get the value from the HTML select dropdown and convert to number with "+"
-  var filteredItems = organizedArchiveItems.filter(item => {
-    return item.number = value;// loops through all items in array and filters out items that don't have a year less than the dropdown value
-  });
-  generate(filteredItems); // run function to generate content with new filteredItems array
-}
-
 function randomize() {
   // array shuffle code credit: https://css-tricks.com/snippets/javascript/shuffle-array/
   // don't worry about why this works, it's complicated. We are creating a new array based on the original organizedArchiveItems
