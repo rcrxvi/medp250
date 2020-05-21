@@ -232,12 +232,6 @@ button p {
 	font-size: 5em;
 	font-style: italic;
 }
-
-button:hover {
-	width: 49%;
-}
-
-
 #about p{
 	text-align: left; 
 	font-size: 2.5em;
