@@ -113,7 +113,7 @@ button a{
 	font-size: 4.7em;
 	color: #e6e6e6;
 	margin-right: 30px;
-	padding-bottom: 120px;
+	padding-bottom: 115px;
 	transition: all 0.3s ease-in-out;
 } 
 
@@ -155,6 +155,11 @@ button a{
 	left: 200px;
 	width: 75%;
 	background-color: transparent;
+}
+
+#about p{
+	text-align: left; 
+	font-size: 1.5em;
 }
 
 
@@ -226,6 +231,12 @@ button p {
 	margin-top: 0px;
 	font-size: 5em;
 	font-style: italic;
+}
+
+
+#about p{
+	text-align: left; 
+	font-size: 2.5em;
 }
 
 .filtername {
